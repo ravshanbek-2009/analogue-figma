@@ -1,0 +1,364 @@
+html, body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+
+    max-width: 1160px;
+    width: 100%;
+    padding: 0px 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+.site-title{
+    font-family: Inter, sans-serif;
+font-weight: 400;
+font-size: 58px;
+line-height: 72.5px;
+letter-spacing: 0.2px;
+color: #464542;
+margin-bottom: 44px;
+margin-top: 15px;
+}
+
+.site-title-highlight{
+font-family: Libre Baskerville;
+font-size: 52px;
+line-height: 72.5px;
+}
+
+.product-item{
+    list-style: none;
+}
+
+.product-divider{
+    width: 520px;
+    margin-left: -1px;
+    margin-top: 21px;
+    border-color: #000000;
+    margin-bottom: 9px;
+}
+
+.product-title{
+font-family: Inter;
+font-weight: 400;
+font-size: 23px;
+line-height: 33.6px;
+letter-spacing: 0.2px;
+color: #464542;
+margin-bottom: 3px;
+}
+
+.product-tags-list{
+    display: flex;
+    list-style: none;
+}
+
+.product-tag-item{
+    font-family: Libre Baskerville;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+letter-spacing: 0.4px;
+color: #6D6B67;
+margin-right: 5px;
+}
+
+.product-tag-item-slash{
+    font-family: Inter;
+font-weight: 400;
+font-size: 16px;
+line-height: 22.4px;
+letter-spacing: 0.2px;
+color: #000000;
+}
+
+.product-item-miami-gin{
+    margin-top: 64px;
+    list-style: none;
+}
+
+
+.product-divider-miami-gin{
+    width: 520px;
+    margin-left: -1px;
+    margin-top: 21px;
+    border-color: #000000;
+    margin-bottom: 9px;
+}
+
+.product-title-miami-gin{
+    font-family: Inter;
+font-weight: 400;
+font-size: 22px;
+line-height: 33.6px;
+letter-spacing: 0.2px;
+color: #464542;
+margin-bottom: 3px;
+}
+
+.product-tags-list-miami-gin{
+    display: flex;
+list-style: none;
+}
+
+.product-tag-item-miami-gin{
+    font-family: Libre Baskerville;
+font-weight: 400;
+font-size: 13px;
+line-height: 24px;
+letter-spacing: 0.4px;
+color: #6D6B67;
+margin-right: 12px;
+}
+
+.product-item-batch-gummies{
+    margin-top: 64px;
+    list-style: none;
+}
+
+.product-divider-batch-gummies{
+    width: 520px;
+    margin-left: -1px;
+    margin-top: 21px;
+    border-color: #000000;
+    margin-bottom: 9px;
+}
+
+.product-title-batch-gummies{
+    font-family: Inter;
+font-weight: 400;
+font-size: 23px;
+line-height: 33.6px;
+letter-spacing: 0.2px;
+color: #464542;
+margin-bottom: 3px;
+}
+
+.product-tags-list-batch-gummies{
+    display: flex;
+list-style: none;
+}
+
+.product-tag-item-batch-gummies{
+    font-family: Libre Baskerville;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.4px;
+color: #6D6B67;
+margin-bottom: 64px;
+margin-right: 12px;
+}
+
+.see-all-work{
+font-family: Inter;
+font-weight: 400;
+font-size: 17px;
+line-height: 27px;
+letter-spacing: 0.2px;
+text-align: center;
+color: #FFFFFF;
+background-color: #1F1F1F;
+text-decoration: none;
+display: inline-block;
+padding: 9px 32px;
+}
+
+.clients{
+background-color: #F7F6F3;
+margin-top: 42px;
+padding: 52px 0px 132px 0px;
+ width: 100vw;
+ position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw; 
+}
+
+
+
+
+.clients-title{
+font-family: Inter;
+font-weight: 400;
+font-size: 38px;
+line-height: 49.4px;
+letter-spacing: 0.2px;
+text-align: center;
+color: #1F1F1F;
+margin-bottom: 36px;
+
+}
+.clients-title-highlight{
+    font-family: Libre Baskerville;
+font-weight: 400;
+font-size: 32px;
+line-height: 49.4px;
+letter-spacing: 0.2px;
+text-align: center;
+}
+
+.clients-divider{
+width: 105%;
+height: 1px;
+border: none;
+background-color: #6D6B67;
+}
+
+.clients-list{
+
+    width: 1120px;
+    height: 167px;
+    list-style: none;
+      display: grid;                
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 35px;
+  padding-top: 24.17px;
+  margin-left: -50px;
+
+}
+
+ .clients-image-carded{
+    margin-left: 107px;
+}
+
+.clients-image-nowintech{
+margin-left: 130px;
+}
+
+.clients-image-FocusFox{
+    margin-left: 128px;
+}
+
+.clients-image-Optimer{
+    margin-left: 143px;
+}
+.cleints-image-Etro{
+    margin-left: 115px;
+}
+
+.clients-image-Emerald{
+    margin-left: 140px;
+}
+
+.clients-image-carded-second{
+    margin-left: 120px;
+}
+
+.clients-image-nowintech-second{
+    margin-left: 140px;
+}
+
+.clients-divider-second{
+  width: 105%;
+  height: 1px;
+  border: none;
+  background-color: #6D6B67;
+}
+
+
+.ready-to-start{
+    padding: 48px 0px 40px;
+    background-color: #E0F391;
+    width: 100vw;
+ position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw; 
+
+}
+
+
+.ready-to-start-divider{
+margin-bottom: 24px;
+width: 1120px;
+border-color: #6D6B67;
+}
+
+.ready-to-start-title{
+font-family: Inter;
+font-weight: 400;
+font-size: 30px;
+line-height: 42px;
+letter-spacing: 0.2px;
+color: #1F1F1F;
+}
+
+.ready-to-start-title-highlight{
+    font-family: Libre Baskerville;
+font-weight: 400;
+font-size: 28px;
+line-height: 42px;
+letter-spacing: 0.2px;
+color: #1F1F1F;
+}
+
+.analogue{
+    width: 1200px;
+height: 463px;
+background-color: #1F1F1F;
+padding: 80px 0px 70px;
+width: 100vw;
+ position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw; 
+}
+
+.analogue-list{
+    list-style: none;
+}
+
+.analogue-image{
+    margin-top: 80px;
+}
+
+.analogue-title-second{
+    font-family: Libre Baskerville;
+font-weight: 400;
+font-size: 20px;
+line-height: 33.6px;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+margin-top: 63px;
+margin-bottom: 52px;
+}
+
+.analogue-divider{
+    width: 300px;
+height: 1px;
+border-color: #6D6B67;
+margin-bottom: 94px;
+}
+
+.analogue-reserved{
+    font-family: Libre Baskerville;
+font-weight: 400;
+font-size: 13px;
+line-height: 19.6px;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+}
+
+.analogue-reserved-title{
+    font-family: Inter;
+font-weight: 400;
+font-size: 13px;
+line-height: 19.6px;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+}
